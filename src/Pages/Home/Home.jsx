@@ -15,6 +15,8 @@ import WatchOutlinedIcon from '@mui/icons-material/WatchOutlined';
 import CameraAltOutlinedIcon from '@mui/icons-material/CameraAltOutlined';
 import HeadsetOutlinedIcon from '@mui/icons-material/HeadsetOutlined';
 import VideogameAssetOutlinedIcon from '@mui/icons-material/VideogameAssetOutlined';
+import mainPhoto from '../../assets/iPhone-15-Pro-Review-Top-Gear.webp'
+import mainPhoto2 from '../../assets/hero_endframe__e0ajd2ayxqc2_large.jpg'
 
 import { getData, getDataById, postBuket } from '../../reducers/api';
 import {  useDispatch, useSelector } from 'react-redux';
@@ -64,8 +66,8 @@ const filteredData = selectedCategory ? data.filter((item) => item.category === 
 
         <aside className='w-[75%] object-cover h-[400px]'>
           <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-            <SwiperSlide><img src="src/assets/iPhone-15-Pro-Review-Top-Gear (1).webp" alt="" /></SwiperSlide>
-            <SwiperSlide><img className='' src="src/assets/hero_endframe__e0ajd2ayxqc2_large.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src={mainPhoto} alt="" /></SwiperSlide>
+            <SwiperSlide><img className='' src={mainPhoto2} alt="" /></SwiperSlide>
           </Swiper>
         </aside>
 
