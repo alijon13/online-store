@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "iphones",
+      "img": "https://ekb.hi-stores.ru/upload/iblock/8e6/gp4u0j7peh08rso1ov1vi5m01okf1jyy.jpg",
+      "name": "Iphone 15 pro max",
+      "price": "900$",
+      "description": "lorem Ipsum is Lorem Ipsum but Lore  mipsum"
+    },
+    {
+      "id": 2,
+      "category": "iphones",
+      "img": "https://ishop.hu/image/cache/data/img/products/11/22/5/Tech-Pro-SmartShell-MacBook-Air-13-M1-2018-2020-tok-fekete-matt-5865-500x400.jpg",
+      "name": "Macbook Air 13 Pro max",
+      "price": "900$",
+      "description": "lorem Ipsum is Lorem Ipsum but Lore  mipsum",
+      "keys": 1
+    },
+    {
+      "id": 3,
+      "category": "samsungs",
+      "img": "https://images.samsung.com/uk/smartphones/galaxy-s23/buy/02_Image_Carousel/02-1_Group_KV_Basic_Color/S23Plus-group_kv_MO.jpg",
+      "name": "samsung s23",
+      "price": "900$",
+      "description": "lorem Ipsum is Lorem Ipsum but Lore  mipsum",
+      "keys": 2
+    },
+    {
+      "id": 4,
+      "category": "samsungs",
+      "img": "https://images.eprice.it/nobrand/0/lightbox/836/209481836/DAM209481836-23-092d5ff8-1c93-41e5-a487-a01fe8da4e2f.jpg",
+      "name": "Samsung Tv",
+      "price": "900$",
+      "description": "lorem Ipsum is Lorem Ipsum but Lore  mipsum",
+      "keys": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "samsung s23",
+      "img": "https://images.samsung.com/uk/smartphones/galaxy-s23/buy/02_Image_Carousel/02-1_Group_KV_Basic_Color/S23Plus-group_kv_MO.jpg",
+      "price": "900$",
+      "description": "lorem Ipsum is Lorem Ipsum but Lore  mipsum",
+      "id": 1
+    }
+  ]
+}
